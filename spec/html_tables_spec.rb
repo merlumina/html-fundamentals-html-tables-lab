@@ -17,7 +17,7 @@ RSpec.describe 'index.html' do
 
     expect(headers.children[0].children[0].text).to eq("City")
     expect(headers.children[2].children[0].text).to eq("State")
-    expect(headers.children[4].children[0].text).to eq("2017 estimate")
+    expect(headers.children[4].children[0].text).to eq("2017 Estimate")
   end
 
   it 'contains the correct information about New York City' do
